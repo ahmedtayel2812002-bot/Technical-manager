@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -q technician_manager_app_upload.zip -d project
+          unzip -q technician_manager_app_ready.zip -d project
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
